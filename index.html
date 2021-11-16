@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Tienda =)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link     rel="stylesheet"     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+    <link href="css/toastr.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class"header_logo" src="img/logo.png" alt="logotipo">
+            <!-- el alt es alternativo, sino carga aparece ese texto-->
+        </a>
+        <div class=">                
+            <li class=" submenu">    
+            <img src="img/cart.svg" id="img-carrito" class="imgCarrito">
+            <div id="carrito">
+                <table id="lista-carrito" class="">
+                    <thead>
+                        <tr>
+                            <th class="carritoTexto">Imagen</th>
+                            <th class="carritoTexto">Nombre</th>
+                            <th class="carritoTexto">Precio</th>
+                            <th class="carritoTexto">Cantidad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+    
+                <a href="#" id="vaciar-carrito" class="formulario__submit">Vaciar Carrito</a>
+                </div>
+            </li>
+    
+        </div>
+    </header>
+    <nav class="navegacion">
+    <a class="navegacion__enlace navegacion__enlace--activo"  href="index.html">Tienda</a>
+    <a class="navegacion__enlace"  href="nosotros.html">Nosotros</a>        
+    </nav>
+
+    <main class="contenedor">
+        <h2 class="bienvenido"> Bienvenidos a mi Tienda !</h2>
+        <h1 class="animate__animated">Nuestros Productos</h1>   
+        <div class="grafico grafico--camisa"></div> 
+      
+        <div class="listadoProducto grid">
+            
+       
+
+    </main>
+
+
+        <div class="carrousel">
+            <div class="carrousel__contenedor">
+                <button  aria-label="Anterior" class="carrousel__anterior">
+                 <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="carrousel__lista">
+                 <div class="carrousel__elemento">
+                     <img src="img/grafico2.jpg" alt="1" >
+                 </div>
+                 
+                
+                
+                 <div class="carrousel__elemento">
+                     <img src="img/grafico3.jpg" alt="1" >
+                 </div>
+                 <div class="carrousel__elemento">
+                    <img src="img/grafico4.jpg" alt="1" >
+                </div>
+                </div>                   
+
+                
+                
+                <button aria-label="Siguiente" class="carrousel__siguiente" >
+                 <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div role="tablist" class="carrousel__indicadores">           </div>
+        </div>
+    
+
+
+    <footer class="footer">
+    <p class="footer__texto">front end store. hernan paciaroni. todos los derechos reservados</p>    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js/toastr.js"></script>
+
+
+
+   <!--  <script src="js/productos.js"></script> -->
+    <script src="js/remeras.json"></script> 
+
+    <script src="js/app.js"></script>
+</body>
+</html> 
